@@ -6,6 +6,9 @@ import com.company.laboras.TransportasImpl;
 import com.company.laboras.isvestine.AutomobolisImpl;
 import com.company.notes.LeidinysImpl;
 import com.company.notes.knygos.KnygaImpl;
+import com.company.uzduotis.MoketojasImpl;
+import com.company.uzduotis.internetas.InternetasImpl;
+import com.company.uzduotis.isvestine.TelefonasImpl;
 
 public class Main {
 
@@ -115,6 +118,42 @@ public class Main {
             }
 
         }
+        MoketojasImpl moketojas1 = new MoketojasImpl("Jonas","Jonaitis","Jonaiciu g.13", 500);
+        MoketojasImpl moketojas2 = new MoketojasImpl("Juozas","Juozaitis","Juozaiciu g.14", 13.26);
+        MoketojasImpl moketojas3 = new MoketojasImpl("Ieva","Ievauskaite", "Pievu g.60", 15.87);
+        TelefonasImpl moketojas4 = new TelefonasImpl("Ivanas","Ivanauskas","Ivano g.206",14.82, 868686866);
+        TelefonasImpl moketojas5 = new TelefonasImpl("Svetlana","Svietauskaite","Sveciu g. 3", 2.37, 868686867);
+        TelefonasImpl moketojas6 = new TelefonasImpl("Laisve","Laisvute","Liepu g.1", 35.77, 868686868);
+        InternetasImpl moketojas7 = new InternetasImpl("Zydrunas","Savickas","Laisves al.13",205.45, "1.1.1.1");
+        InternetasImpl moketojas8 = new InternetasImpl("Stefanija","Gonzalez", "Alcapulco 5", 24.45, "1.0.0.1");
+        InternetasImpl moketojas9 = new InternetasImpl("Paulius","Paulauskas","Pauliaus g.13", 45.45, "8.8.8.8");
 
+            MoketojasImpl[] moketojai = new MoketojasImpl[10];
+            moketojai[1] = moketojas1;
+            moketojai[2] = moketojas2;
+            moketojai[3] = moketojas3;
+            moketojai[4] = moketojas4;
+            moketojai[5] = moketojas5;
+            moketojai[6] = moketojas6;
+            moketojai[7] = moketojas7;
+            moketojai[8] = moketojas8;
+            moketojai[9] = moketojas9;
+                double sumaa = 0;
+            for(MoketojasImpl ieskoti:moketojai){
+                if(ieskoti instanceof TelefonasImpl){
+                    TelefonasImpl telefonas = (TelefonasImpl) ieskoti;
+                    sumaa += telefonas.getSuma();
+                }
+            }System.out.println("Suma uz telefona bendra: " + sumaa);
+                double sumaaaa = 0;
+            for(MoketojasImpl ieskoti:moketojai){
+                if(ieskoti instanceof InternetasImpl){
+                    InternetasImpl internetas = (InternetasImpl) ieskoti;
+                    sumaaaa +=internetas.getSuma();
+                }
+            }
+        System.out.println("Suma uz interneta: " + sumaaaa);
+            double bendras = sumaa + sumaaaa;
+        System.out.println("Bendra suma uz telefona ir interneta: " + bendras);
     }
 }
