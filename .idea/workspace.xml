@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b86cb994-6f8f-414a-b3f5-ed8d03fe7fc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objektinis programavimas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/bazinis/Zmogus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/bazinis/ZmogusImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/bazinis/isvestine/Statybininkas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/bazinis/isvestine/StatybininkasImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/laboras/TransportasImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/laboras/isvestine/AutomobolisImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/laboras/isvestine/automobolis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/laboras/transportas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/notes/Leidinys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/notes/LeidinysImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/notes/knygos/Knyga.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/objektinis programavimas/com/company/notes/knygos/KnygaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bazinis/Zmogus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bazinis/ZmogusImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bazinis/isvestine/Statybininkas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/bazinis/isvestine/StatybininkasImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/laboras/TransportasImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/laboras/isvestine/AutomobolisImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/laboras/isvestine/automobolis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/laboras/transportas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/notes/Leidinys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/notes/LeidinysImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/notes/knygos/Knyga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/notes/knygos/KnygaImpl.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1U26dlu5vkIJffU9VBySX9IiUyR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="objektinis programavimas" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b86cb994-6f8f-414a-b3f5-ed8d03fe7fc3" name="Default Changelist" comment="" />
+      <created>1574542432508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574542432508</updated>
+      <workItem from="1574542437058" duration="6209000" />
+      <workItem from="1574703391020" duration="4335000" />
+      <workItem from="1574708716075" duration="1838000" />
+      <workItem from="1574759275372" duration="276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
